@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title> setTimeout Example</title>
+	<script type="text/javascript">
+        let myGreeting = setTimeout(
+                        function(){
+                            alert("Greetings");
+                        },5000
+        );
+        //clearTimeout(myGreeting);
+        function getData(invokeResults){
+            let data = "Ravi";
+            
+            setTimeout(()=>{
+                data = "Raghavan";
+                invokeResults(data);
+            },3000);
+            //return data;
+        }
+        function invokeResults(data){
+            alert(data);
+            return data;
+        }
+        getData(invokeResults);
+    </script>
+</head>
+<body>
+    </body>
+</html>

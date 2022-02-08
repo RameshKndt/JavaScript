@@ -1,0 +1,21 @@
+AJAX Call with Promise
+-----------------------
+//Callback function 
+request
+  |--> readyStateChange event  
+  |--> called our callback function // callback function (result)
+ send()  
+ 
+ //Promise(function (resolve,reject)=>{
+   //AJAX Call 
+    if(success){
+        resolve(response);
+    }
+    reject(reason);
+ 
+ });
+ 
+//Result --> ProcessResponse to show the data to the endUser 
+  
+  .then(->ProcessResponse,-> failureResponse)
+  

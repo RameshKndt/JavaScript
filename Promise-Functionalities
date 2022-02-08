@@ -1,0 +1,20 @@
+Promise.reject();
+.then(-,rejectFunc);
+.catch(-)
+
+Promise.all()
+
+--> Mulitple promises , Array of promises
+--> Array of each resolved promise details.
+--> Rejected then return value is the reason.
+
+new Promise(function(resolve,reject){
+    resolve();
+    reject();
+
+});
+
+.then -->
+      --> 2nd Argument of then
+CallbackHell
+Ajax Functionality.

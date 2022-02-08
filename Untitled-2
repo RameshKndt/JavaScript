@@ -1,0 +1,5 @@
+async 
+-----
+- Can write the asynchronous logic.
+- we can use the async keyword for function.
+- Asynchronous functionality in a synchronous manner.

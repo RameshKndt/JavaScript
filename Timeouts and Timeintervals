@@ -1,0 +1,23 @@
+setTimeout()
+------------
+
+1.  How many times executed ? One time 
+
+ syntax : setTimeout(function,milliseconds,param1,param2,...)
+ 1000 ms = 1 seconds
+ 
+ - zero will be executed immediately.
+ 
+ 
+ let myGreeting = setTimeout(()=>{alert("Greeting");},2000);
+ 
+ ClearingTimeouts
+ ---------------- 
+ 
+ clearTimeout(myGreeting);
+ 
+ setInterval()
+ -------------
+ 
+ setInterval(function,milliseconds,param1,param2,...)
+ clearInterval()

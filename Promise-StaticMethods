@@ -1,0 +1,30 @@
+Promise
+-------
+static methods 
+
+Promise.resolve : 
+----------------
+  - value can be passed to the resolve. //resolve(Value)
+  - The result of the promise.
+  - Promise.resolve("Apple-Iphone Mobile");
+  
+Promise.then
+------------
+   Promise.then(fulfillmentFunc,rejectFunc)
+  - Fulfilled  -  
+  - Broken     - 
+
+Promise.reject
+--------------
+  - Promise.reject("Due to Lack of Money"); // Cause or Reason
+  
+Promise.catch
+--------------
+  - 
+Promise.finally
+----------------
+   
+Promise.all
+------------
+
+

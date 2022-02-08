@@ -1,0 +1,49 @@
+- HTTP API call
+- XMLHttpRequest 
+- Instance of this class represents the single request & response pair.
+- Using properties & Methods.
+1. Instantiation
+- new XMLHttpRequest();
+2. Specify the Request
+
+  - HTTP Request contains
+    - Request Method
+    - the URL
+    - An optional request headers.
+	- An Optional request body
+	
+	-> open(Method,URL)
+	 
+	-> setHeader("header-name","header-value");
+	
+	-> send(<Request_Body>)
+3. Retrieving the response.
+    -> HttpResponse
+      - response status & status code (100 to 999)
+      - set of the response headers.
+      - Response body.
+
+	a. status & statusText (properties)
+	   200          OK 
+    b. getResponseHeader(<Header_Name>) 
+       getAllResponseHeaders()
+    c. response & responseText (two properties)
+	   responseXML - if response content type is text/xml 
+Event:
+	   To retrieve the response, have to listen to the readystatechange event.
+        this event will trigger , when the readyState property
+		
+Callbacks:
+----------
+1. A function is an object in javascript.
+2. can we create an object as parameter.
+   const user = {name:"Raghavan"};
+   function createUser(user){
+   
+   
+   }
+3. A callback function is a function passed into another function as an argument.
+ 
+  	
+	   
+	
